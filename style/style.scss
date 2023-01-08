@@ -1,0 +1,373 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+$bg-primary: #c2b2b4;
+$bg-secondary: #6b4e71;
+$tx-primary: #fefefe;
+$tx-secondary: #2c3e51;
+
+body{
+    .navbar{
+        background-color: $bg-secondary;
+        .navbar-brand{
+            color:$tx-primary;
+            font-weight: 700;
+        }
+        .navbar-toggler{
+            background-color: $bg-primary;
+            color: $tx-primary;
+            font-weight: 700;
+        }
+        
+        .collapse{
+            .navbar-nav{
+                .nav-link{
+                    color:$tx-primary;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    main{
+        min-width: 100%;
+        .container{
+            min-width: 100%;
+            background-color: $bg-primary;       
+            .row{
+                .col-md-6{
+                    .card-mb-4{
+                        .card-body{
+                            .card-title{
+                                color: $tx-primary;
+                                font-weight: 700;
+                            }
+                            .lc{
+                                /*padding: 10px 0px;*/
+                                hr{
+                                    background-color: #fefefe;
+                                    height: 2px;
+                                    width: 50%;
+                                }
+                                i{
+                                    color: $tx-primary;
+                                }
+                            }
+                            .card-text{
+                                color: $tx-primary;
+                                font-size: 13px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .Bcontainer{
+            .row{
+                .col-md-6{
+                    .card-mb-4{
+                        .card-body{
+                            .card-title{
+                                color: $tx-secondary;
+                                font-weight: 700;
+                            }
+                            .lc{
+                                hr{
+                                    background-color: $tx-secondary;
+                                    height: 2px;
+                                    width: 50%;
+                                }
+                                i{
+                                    color: $tx-secondary;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .rowB{
+                .col-sm-12{
+                    .card-mb-4{
+                        .col-6:hover{
+                            opacity: 0.5;
+                        }
+                        .modal{
+                            .modal-dialog{
+                                border: $bg-primary solid 1px;
+                                border-radius: 5px;
+                                .modal-content{
+                                    .modal-header{
+                                        .card-body{
+                                            .card-title{
+                                                color: $tx-secondary;
+                                                font-weight: 700;
+                                            }
+                                            .lc{
+                                                hr{
+                                                    background-color: $tx-secondary;
+                                                    height: 2px;
+                                                    width: 50%;
+                                                }
+                                                i{
+                                                    color: $tx-secondary;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .modal-body{
+                                        .descrip{
+                                                color: $tx-secondary;
+                                                font-weight: 500;
+                                                font-size: 14px;
+                                        }
+                                        a{
+                                            text-decoration: none;
+                                        }
+                                        .btn{
+                                            background-color: $bg-primary;
+                                            border: $tx-primary solid 2px;
+                                            color: $tx-primary;
+                                        }
+                                        .btn:hover{
+                                            background-color: $tx-secondary;
+                                            color: $bg-primary;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .Ccontainer{
+            background-color: $bg-primary;
+            .row{
+                .col-md-6{
+                    .card-mb-4{
+                        .card-body{
+                            .card-title{
+                                color: $tx-primary;
+                                font-weight: 700;
+                            }
+                            .lc{
+                                hr{
+                                    background-color: $tx-primary;
+                                    height: 2px;
+                                    width: 50%;
+                                }
+                                i{
+                                    color: $tx-primary;
+                                }
+                            }
+                        }
+                    }
+                }
+                p{
+                    color: $tx-primary;
+                    font-size: 15px;
+                    line-height: 19px;
+                }
+            }
+            .btn{
+                background-color: $bg-primary;
+                border: $tx-primary solid 2px;
+                color: $tx-primary;
+            }
+        }
+        .Dcontainer{
+            .row{
+                .col-md-6{
+                    .card-mb-4{
+                        .card-body{
+                            .card-title{
+                                color: $tx-secondary;
+                                font-weight: 700;
+                            }
+                            .lc{
+                                hr{
+                                    background-color: $tx-secondary;
+                                    height: 2px;
+                                    width: 50%;
+                                }
+                                i{
+                                    color: $tx-secondary;
+                                }
+                            }
+                        }
+                    }
+                    form{
+                        .form-group{
+                            .form-control{
+                                border-bottom: $bg-primary 3px solid;
+                                border-top: none;
+                                border-left: none;
+                                border-right: none;
+                            }
+                        }
+                        .btn{
+                            background-color: $bg-primary;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+        .Econtainer{
+            background-color: #53687e;
+            .row{
+                .col-md-6{
+                    .lugar{
+                        color: $tx-primary;
+                        h6{
+                            font-size: 18px;
+                            font-weight: 750;
+                        }
+                        p{
+                            font-weight: 500;
+                        }
+                    }
+                    .conectados{
+                        color: $tx-primary;
+                        h6{
+                            font-size: 18px;
+                            font-weight: 750;
+                        }
+                        .redes{
+                            .fa-circle{
+                                width: 25px;
+                                height: 25px;
+                                line-height: 23px;
+                                text-align: center;
+                            }
+                            .fa-circle::before{
+                                content: none;
+                            }
+                            .insta{
+                                border-radius: 50%;
+                                border: #fefefe 1px solid;
+                                i{
+                                    font-weight: 5;
+                                }
+                            }
+                            .face{
+                                border-radius: 50%;
+                                border: #fefefe 1px solid;
+                                i{
+                                    font-weight: 5;
+                                }
+                            }
+                            .link{
+                                border-radius: 50%;
+                                border: #fefefe 1px solid;
+                                i{
+                                    font-weight: 5;
+                                }
+                            }
+                            .github{
+                                border-radius: 50%;
+                                border: #fefefe 1px solid;
+                                i{
+                                    font-weight: 5;
+                                }
+                            }
+                        }
+                    }
+                    .sobreMi{
+                        color: $tx-primary;
+                        h6{
+                            font-size: 18px;
+                            font-weight: 750;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }   
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+	.Bcontainer{
+        .rowB{
+            .col-md-10{
+                display: grid;
+                grid-template-columns: repeat(2, auto);
+                grid-template-rows: repeat(3, auto);
+            }
+        }
+    }
+}
+@media only screen and (min-width: 992px) {
+	.Bcontainer{
+        .rowB{
+            .col-md-10{
+                display: grid;
+                grid-template-columns: repeat(3, auto);
+                grid-template-rows: repeat(2, auto);
+            }
+        }
+    }
+    .Ccontainer{
+        .row{
+            .descrip{
+                display: flex;
+            }
+        }
+    }
+    .Econtainer{
+        .row{
+            display: grid;
+            grid-template-columns: 1fr;
+            .col-md-6{
+                display: grid;
+                align-items: flex-start;
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    }
+    /*.ModalUnoContainer{
+        .modal{
+            .modal-dialog{
+                border: $bg-primary solid 1px;
+                border-radius: 5px;
+                .modal-content{
+                    .modal-header{
+                        .card-body{
+                            .card-title{
+                                color: $tx-secondary;
+                                font-weight: 700;
+                            }
+                            .lc{
+                                hr{
+                                    background-color: $tx-secondary;
+                                    height: 2px;
+                                    width: 50%;
+                                }
+                                i{
+                                    color: $tx-secondary;
+                                }
+                            }
+                        }
+                    }
+                    .modal-body{
+                        .descrip{
+                                color: $tx-secondary;
+                                font-weight: 500;
+                                font-size: 14px;
+                            }
+                        .btn{
+                            background-color: $bg-primary;
+                            border: $tx-primary solid 2px;
+                            color: $tx-primary;
+                        }
+                    }
+                }
+            }
+        }
+    }*/
+}
